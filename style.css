@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: #1e2049;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #B8BECB;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 100px;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.projetos {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 35px;
+  align-items: center;
+  color: #ecf4ff;
+
+  display: flex;
+  flex-direction: column;
+  background: url("https://media.istockphoto.com/vectors/abstract-blurred-background-defocused-blue-gradient-vector-id1184802478?k=20&m=1184802478&s=612x612&w=0&h=r_zV72QAvA70P-UFXMr4_fQsT3ranbW17R4anvgAZdM=");
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  position: absolute;
+  top: 285px;
+  left: 800px;
+  width: 400px;
+  height: 230px;
+}
+
+.redes-sociais li {
+  font-weight: 200;
+  font-size: 25px;
+  display: block;
+  margin-top: 16px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 32px 0px 0px;
+  padding: 19px 0;
+  width: 30%;
+   text-align: center;
+   background-color: #DBE0EA;
+}
+.redes-sociais ul{
+  font-size 20px
+  
+}
+.redes-sociais {
+  margin-top: 30px;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+   
+}
+
+.projetos li a{
+  display: block;
+  margin-top: 16px;
+  color: #CEDCF8;
+  text-decoration: underline;
+}
